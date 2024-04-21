@@ -18,6 +18,6 @@ void main() async {
   print('Events: $events');
 
   // delete the event from the database by id
-  final response = await eventApi.deleteEventById(13);
+  final response = await eventApi.deleteEventById(15);
   print('Event deleted: $response');
 }
